@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-screen centered layout */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EFEC;
+    font-family: Arial, sans-serif;
+    color: #123458;
+    text-align: left;
+}
+
+/* Automatically style forms, divs, and links as a container */
+form,
+body > div,
+body > a,
+body > h3 {
+    background-color: #F1EFEC;
+    padding: 30px;
+    border: 1px solid #D4C9BE;
+    border-radius: 8px;
+    min-width: 320px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+    margin: 10px;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    color: #123458;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #030303;
+}
+
+/* Headings */
+h3 {
+    color: #123458;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    color: #123458;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #D4C9BE;
+    border-radius: 4px;
+    color: #030303;
+    background-color: #D4C9BE;
+}
+
+/* Submit Buttons */
+input[type="submit"] {
+    background-color: #030303;
+    color: #F1EFEC;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #123458;
+    color: #F1EFEC;
+}
+
+/* Messages */
+p {
+    color: #123458;
+    font-style: italic;
+    margin-top: 10px;
+}
